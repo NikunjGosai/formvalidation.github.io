@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Javascript Assignment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- form validation start -->
+    <div class="wrapper">
+        <div class="container">
+            <form action="#" method="post" class="form-out" >
+                <div id="message-box"  class="white-box">Form Submitted Successfully<span id="cancel-x" class="cancel-text">x</span></div>
+                <div class="input-form">
+                    <input type="text" name="email" id="email" class="email" placeholder="Enter Your Email">
+                </div>
+                <div class="input-names">
+                    <div class="input-form">
+                        <input type="text" name="firstName" id="firstname" class="firstname" placeholder="First Name">
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="LastName" id="lastname" class="lastname" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="input-form">
+                    <input type="text" name="address" id="address" class="address" placeholder="Address" maxlength="100">
+                </div>
+                <div class="input-select">
+                    <div class="input-form">
+                        <select name="Country" id="country" class="country">
+                            <option value="">Select Country</option>
+                            <option value="india">India</option>
+                        </select>
+                    </div>
+                    <div class="input-form">
+                        <select name="State" id="state" class="state">
+                            <option value="">Select State</option>
+                            <option value="gujarat">Gujarat</option>
+                            <option value="haryana">Haryana</option>
+                            <option value="kerela">Kerela</option>
+                            <option value="assam">Assam</option>
+                        </select>
+                    </div>
+                    <div class="input-form">
+                        <input type="number" name="zipCode" id="zipcode" class="zipcode" placeholder="Zip Code" maxlength="6">
+                    </div>
+                </div>
+                <div class="input-numbers">
+                    <div class="input-form">
+                        <input type="text" name="MobileNumber" id="mobile-number" class="mobile-number"
+                        placeholder="Mobile Number" maxlength="10"> 
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="phoneNumber" id="phone-number" class="phone-number"
+                        placeholder="Phone Number" maxlength="10">
+                    </div> 
+                </div>
+                <div class="input-button">
+                    <input type="button" name="button" id="input-btn" class="button" value="SUBMIT" >
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- form validation end -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
